@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
@@ -12,7 +6,6 @@ import requests
 import numpy as np
 from io import BytesIO
 from PIL import Image
-
 
 # Inisialisasi Firebase menggunakan credential
 cred = credentials.Certificate("credential.json")
